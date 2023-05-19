@@ -1,0 +1,47 @@
+.bike{
+    width:1000px;
+    height: 500px;
+}
+
+.auto{
+    width:100px;
+    height:100px;
+}
+
+.car{
+    width:150px;
+    height: 200px;
+}
+
+.numbers{
+    display:flex;
+    gap:30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width:400px;
+    height:60px;
+    align-items: center;
+    
+   
+}
+
+
+button{
+    background-color: rgba(246, 139, 9, 0.826);
+    border:2px solid rgba(246, 139, 9, 0.826);
+    border-radius: 50px;
+    align-items: center;
+
+}
+
+img{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items:end;
+   
+}
+
+button:hover{
+    background-color: greenyellow;
+    border:2px solid greenyellow;
+}
